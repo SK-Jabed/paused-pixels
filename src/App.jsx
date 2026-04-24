@@ -1,4 +1,4 @@
-import './App.css'
+import "./App.css";
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
         <h2>This is the project named Paused Pixels</h2>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
