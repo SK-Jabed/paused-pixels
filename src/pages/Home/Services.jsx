@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { FaHeart } from "react-icons/fa";
-import { MdPortrait, MdFlightTakeoff, MdBusiness } from "react-icons/md";
+import { FaHeart, FaVideo, FaBullhorn } from "react-icons/fa";
+import { MdPortrait } from "react-icons/md";
 import swirlIcon from "../../assets/swirl-icon.png"; // Import your swirl icon
 
 const Services = () => {
@@ -12,25 +12,25 @@ const Services = () => {
       icon: <MdPortrait size={32} />,
       title: "Portrait Photography",
       description:
-        "Capturing the essence of individuals with artistic portraits that reveal personality, emotion, and character. From professional headshots to creative personal portraits.",
+        "Capturing the essence of individuals with artistic portraits that reveal personality, emotion, and character. From professional headshots to creative personal portraits that tell your unique story.",
     },
     {
       icon: <FaHeart size={28} />,
       title: "Wedding Photography",
       description:
-        "Documenting your special day with elegance and emotion. Every precious moment, from intimate glances to grand celebrations, preserved forever in stunning detail.",
+        "Documenting your special day with elegance and emotion. Every precious moment, from intimate glances to grand celebrations, preserved forever in stunning detail with a romantic touch.",
     },
     {
-      icon: <MdFlightTakeoff size={32} />,
+      icon: <FaVideo size={28} />,
       title: "Cinematography",
       description:
-        "Exploring the world through a lens, capturing breathtaking landscapes, vibrant cultures, and unforgettable adventures. Bringing distant places closer to your heart.",
+        "Bringing stories to life through motion pictures with cinematic excellence. From wedding films to promotional videos, we create compelling visual narratives that captivate and inspire audiences.",
     },
     {
-      icon: <MdBusiness size={32} />,
+      icon: <FaBullhorn size={28} />,
       title: "Brand Promotion",
       description:
-        "Elevating brands with professional product, fashion, and corporate photography. High-quality visuals that communicate your brand's story and captivate your audience.",
+        "Elevating your brand's presence with strategic visual content that drives engagement and growth. Professional photography and videography tailored to showcase your brand's unique identity and values.",
     },
   ];
 

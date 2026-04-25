@@ -10,6 +10,7 @@ import {
   FaPhoneAlt,
   FaEnvelope,
   FaHeart,
+  FaTiktok,
 } from "react-icons/fa";
 import { Link } from "react-router";
 import logo from "../assets/logo/pp-logo.png";
@@ -155,10 +156,10 @@ const Footer = () => {
 
             {/* Social Media Icons */}
             <div className="flex gap-3">
-              <SocialIcon href="https://facebook.com" icon={<FaFacebookF />} label="Facebook" />
-              <SocialIcon href="https://instagram.com" icon={<FaInstagram />} label="Instagram" />
+              <SocialIcon href="https://www.facebook.com/profile.php?id=61560066361826" icon={<FaFacebookF />} label="Facebook" />
+              <SocialIcon href="https://www.instagram.com/paused.pixel/" icon={<FaInstagram />} label="Instagram" />
               <SocialIcon href="https://twitter.com" icon={<FaTwitter />} label="Twitter" />
-              <SocialIcon href="https://linkedin.com" icon={<FaLinkedinIn />} label="LinkedIn" />
+              <SocialIcon href="https://www.tiktok.com/@paused.pixels?_r=1&_t=ZS-95fy6XVJ90u" icon={<FaTiktok />} label="Tiktok" />
               <SocialIcon href="https://pinterest.com" icon={<FaPinterestP />} label="Pinterest" />
             </div>
 

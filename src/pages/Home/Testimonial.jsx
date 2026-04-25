@@ -20,7 +20,7 @@ const TestimonialsSection = ({
   const testimonials = [
     {
       id: "testimonial-1",
-      name: "Sarah Johnson",
+      name: "John Gercia",
       image: client1,
       role: "Portrait Photography Client",
       text: "Absolutely stunning work! The portraits captured the essence of our family perfectly. Every shot was beautifully composed and the lighting was magical.",
@@ -28,7 +28,7 @@ const TestimonialsSection = ({
     },
     {
       id: "testimonial-2",
-      name: "Michael Rodriguez",
+      name: "Sarah Johnson",
       image: client2,
       role: "Wedding Photography",
       text: "We couldn't have asked for a better photographer for our special day. The candid moments captured were priceless, and the attention to detail was exceptional.",
@@ -36,7 +36,7 @@ const TestimonialsSection = ({
     },
     {
       id: "testimonial-3",
-      name: "Priya Patel",
+      name: "Tim Heyman",
       image: client3,
       role: "Corporate Event Client",
       text: "Professional, punctual, and incredibly talented. The event photos exceeded our expectations and really captured the energy and atmosphere of our conference.",

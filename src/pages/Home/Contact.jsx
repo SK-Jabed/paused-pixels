@@ -9,6 +9,7 @@ import {
   FaPhoneAlt,
   FaEnvelope,
   FaWhatsapp,
+  FaTiktok,
 } from "react-icons/fa";
 import { LuSend } from "react-icons/lu";
 import emailjs from "emailjs-com";
@@ -98,10 +99,10 @@ const ContactSection = () => {
   ];
 
   const socialLinks = [
-    { icon: FaFacebookF, url: "https://facebook.com", color: "#1877F2" },
+    { icon: FaFacebookF, url: "https://www.facebook.com/profile.php?id=61560066361826", color: "#1877F2" },
+    { icon: FaInstagram, url: "https://www.instagram.com/paused.pixel/", color: "#E4405F" },
+    { icon: FaTiktok, url: "https://www.tiktok.com/@paused.pixels?_r=1&_t=ZS-95fy6XVJ90u", color: "#111111" },
     { icon: FaTwitter, url: "https://twitter.com", color: "#1DA1F2" },
-    { icon: FaInstagram, url: "https://instagram.com", color: "#E4405F" },
-    { icon: FaLinkedinIn, url: "https://linkedin.com", color: "#0077B5" },
     { icon: FaPinterestP, url: "https://pinterest.com", color: "#BD081C" },
   ];
 

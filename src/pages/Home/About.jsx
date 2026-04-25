@@ -186,7 +186,7 @@ const About = () => {
               </div>
               <div>
                 <p className="text-sm text-gray-500">Journey Started</p>
-                <p className="text-lg font-semibold text-gray-800">22 April, 2024</p>
+                <p className="text-lg font-semibold text-gray-800">24 May, 2024</p>
               </div>
             </div>
 
